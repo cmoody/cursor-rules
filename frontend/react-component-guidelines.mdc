@@ -1,0 +1,15 @@
+---
+description: Focuses on reusable, responsive, and accessible React components within the components directory.
+globs: src/**/*.tsx
+---
+
+- Ensure all components are reusable and follow the existing design patterns.
+- Ensure all components are responsive and accessible.
+- Do not export default
+- All files should be Kabob Case and the function name should be the same but in Pascal Case
+- Prefer types over interfaces
+- Use Tailwind CSS for styling, adhering to the defined color palette.
+- Page routes should be in the /src/app folder but they should just contain basic page loading details. The primary container should be in /src/views
+- Private Components: For components used only within specific pages, you can create a /components folder within the relevant /view subdirectory.
+- Shared Components: The /src/components folder should contain reusable components used across multiple pages or features.
+- Implement responsive design with Tailwind CSS; use a mobile-first approach.
